@@ -5,11 +5,13 @@ import icon from "astro-icon";
 import pagefind from "astro-pagefind";
 import markdownIntegration from "@astropub/md";
 
+import react from "@astrojs/react";
+
 // https://astro.build/config
 export default defineConfig({
     site: "http://localhost:4321/",
     base: "/",
-    integrations: [mdx(), icon(), pagefind(), markdownIntegration()],
+    integrations: [mdx(), icon(), pagefind(), markdownIntegration(), react()],
     vite: {
         plugins: [tailwind()],
     },

@@ -12,13 +12,18 @@
     "dependencies": {
         "@astrojs/check": "^0.9.4",
         "@astrojs/mdx": "^4.3.1",
+        "@astrojs/react": "^4.3.0",
         "@astrojs/tailwind": "^6.0.2",
         "@astropub/md": "^0.4.0",
         "@tailwindcss/typography": "^0.5.13",
         "@tailwindcss/vite": "^4.1.11",
+        "@types/react": "^19.1.11",
+        "@types/react-dom": "^19.1.7",
         "astro": "^5.12.4",
         "astro-icon": "^1.1.0",
         "astro-pagefind": "^1.5.0",
+        "react": "^19.1.1",
+        "react-dom": "^19.1.1",
         "sharp": "^0.33.4",
         "tailwindcss": "^4.1.11",
         "typescript": "^5.5.3"
